@@ -1,0 +1,94 @@
+.custom-select {
+    display: inline-block;
+    max-width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.25;
+    color: #464a4c;
+    vertical-align: middle;
+    background: #fff;
+    -webkit-background-size: 8px 10px;
+    background-size: 8px 10px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+
+.form-group{
+    margin: 7px auto;
+}
+
+/*small{*/
+    /*color: red!important;*/
+/*}*/
+
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:textfield;
+}
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
+/*游戏下拉选项*/
+.tab-content{
+    margin-top: 80px;
+}
+.layui-form{
+    padding: 0;
+    /*float: none;*/
+}
+
+ol>li{
+    color: red;
+}
+
+.layui-input{
+    width: 220px;
+}
+#form-adduser>.layui-form-item>.layui-input-inline{
+    width: 220px;
+}
+#form-adduser>.layui-form-item>.layui-input-inline> .layui-unselect, .layui-form-select{
+    width: 220px;
+}
+.search_form > .layui-form-pane > .layui-form-item>.layui-inline>.layui-input-inline{
+    width: 120px;
+}
+.search_form > .layui-form-pane > .layui-form-item>.layui-inline>.layui-input-inline> .layui-input{
+    width: 140px;
+}
+.search_form > .layui-form-pane > .layui-form-item>.layui-inline>.layui-input-inline>.layui-unselect, .layui-form-select{
+    width: 140px;
+}
+.search_form > .layui-form-pane > .layui-form-item>.layui-inline>.layui-input-inline>.layui-unselect>.layui-select-title>.layui-input{
+    width: 140px;
+}
+
+@media screen and (max-width: 450px){
+    .layui-form-item .layui-input-inline {
+        margin: 0 0 10px 100px;
+    }
+}
+
+
+.form-group{
+    height: 34px;
+}
+.panel-body{
+    padding-top: 5%;
+    padding-left: 18%;
+}
+@media only screen and (max-width: 767px) {
+    .form-group{
+        height: 50px;
+
+    }
+}
+@media screen and (min-width:600px) and (max-width:960px){
+    .col-sm-2{
+        width: 36.666%;
+    }
+}

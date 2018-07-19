@@ -1,0 +1,10 @@
+application
+system
+user_guide
+.editorconfig
+.gitignore
+composer.json
+contributing.md
+index.php
+license.txt
+readme.rst
