@@ -19,8 +19,9 @@ class Group extends MY_Controller {
      */
     public function data()
     {
+
         $result = ['success' => true, 'totalRows' => 0, 'curPage' => 1, 'data' =>[]];
-        do 
+        do
         {
             $this->load->library('form_validation');
             if (FALSE === $this->form_validation->run('page'))
