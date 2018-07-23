@@ -92,9 +92,9 @@ defined('TWO_AGENT')           OR define('TWO_AGENT', 2);         //二级代理
 defined('THREE_AGENT')         OR define('THREE_AGENT', 3);       //三级代理级别
 defined('AGENT_TYPE')          OR define('AGENT_TYPE', 1);        //代理身份
 
-defined('T_GROUP')              OR define('T_GROUP', 't_agent_group');                                       //系统角色表
-defined('T_RULE')               OR define('T_RULE', 't_agent_rule');                                         //系统权限表
-defined('T_MENU')               OR define('T_MENU', 't_agent_nav');                                          //系统菜单表
-defined('T_USER')               OR define('T_USER', 't_agent_user');                                          //用户表
-defined('T_AGENT')              OR define('T_AGENT', 't_agent');                                             //推广表
-defined('T_AGENT_LOGIN_LOG')    OR define('T_AGENT_LOGIN_LOG', 't_agent_login_log');               //用户登录日志表  T_LOGIN_LOG
+defined('T_GROUP')              OR define('T_GROUP', 't_agent_group');                 //系统角色表
+defined('T_RULE')               OR define('T_RULE', 't_agent_rule');                   //系统权限表
+defined('T_MENU')               OR define('T_MENU', 't_agent_nav');                    //系统菜单表
+defined('T_USER')               OR define('T_USER', 't_agent_user');                   //用户表
+defined('T_AGENT')              OR define('T_AGENT', 't_agent');                       //推广表
+defined('T_AGENT_LOGIN_LOG')    OR define('T_AGENT_LOGIN_LOG', 't_agent_login_log');   //用户登录日志表  T_LOGIN_LOG

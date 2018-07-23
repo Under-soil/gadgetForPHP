@@ -1,0 +1,54 @@
+.custom-select {
+    display: inline-block;
+    max-width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.25;
+    color: #464a4c;
+    vertical-align: middle;
+    background: #fff;
+    -webkit-background-size: 8px 10px;
+    background-size: 8px 10px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+
+.form-group{
+    margin: 7px 5px;
+}
+
+small{
+    color: red!important;
+}
+
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:textfield;
+}
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
+.captcha {
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+}
+/*#captcha {
+    padding-left: 170px;
+}*/
+#login{
+    margin-top: 10px;
+}
+.help-block{
+    display: inline-block;
+}
+.qrcode{
+    margin-bottom: 4px;
+}
